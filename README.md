@@ -34,7 +34,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<iframe class="imgur-embed" width="100%" height="566" frameborder="0" src="http://i.imgur.com/QXIs3Wp.gifv#embed"></iframe>
+<a href="http://imgur.com/9ATHrAB"><img src="http://i.imgur.com/9ATHrAB.gif" title="source: imgur.com" /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
