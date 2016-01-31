@@ -26,24 +26,29 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gW6-r6-0vs">
-                                                    <rect key="frame" x="8" y="0.0" width="304" height="21"/>
+                                                    <rect key="frame" x="109" y="0.0" width="211" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A7I-pJ-iUy">
-                                                    <rect key="frame" x="8" y="29" width="304" height="89"/>
+                                                    <rect key="frame" x="109" y="21" width="211" height="89"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cKJ-li-npJ">
+                                                    <rect key="frame" x="0.0" y="-10" width="108" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="overviewLabel" destination="A7I-pJ-iUy" id="dc7-LZ-64c"/>
-                                            <outlet property="titleLabel" destination="gW6-r6-0vs" id="Ed4-NL-VuT"/>
+                                            <outlet property="overviewLabel" destination="A7I-pJ-iUy" id="5f1-3c-a4x"/>
+                                            <outlet property="posterView" destination="cKJ-li-npJ" id="G3R-V3-3Ta"/>
+                                            <outlet property="titleLabel" destination="gW6-r6-0vs" id="RYv-4e-HvL"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
